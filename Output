@@ -1,0 +1,153 @@
+*******************************************
+
+ WELCOME TO PERDANA BOTANICAL GARDEN
+
+
+*******************************************
+
+Please enter your name: 
+Najjah
+
+Please enter your age: 
+20
+
+**TICKET RESERVATION**
+
+Number of children: 
+1
+
+Number of adult: 
+1
+
+Number of senior: 
+1
+
+Are you a member of Royal Botanical Garden?
+true
+
+*******************************************************************************
+* Attention to all members, please check your validation date for membership. * 
+* Membership renewal notices will be sent by email only and payment is due by * 
+* 31 December. Unpaid members as of 1 January will lose membership privileges * 
+* until their dues are paid. Thankyou.                                        *
+*******************************************************************************
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NAME            : Najjah
+AGE             : 20
+NUMBER OF PEOPLE: 3
+MEMBER          : true
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************************************************************************
+PLEASE CHOOSE THE PACKAGE 
+**************************************************************************************
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1. PACKAGE A
+2. PACKAGE B
+3. PACKAGE C
+4. PACKAGE D
+5. PACKAGE E
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE A
+1
+
+PACKAGE A
+
+========================================================================================
+PACKAGE A: 
+1. Time given: 2 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+________________________________________________________________________________________
+
+Normal price: RM 100.0
+With member card price: RM 80.0
+________________________________________________________________________________________
+========================================================================================
+
+PLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE B
+2
+
+PACKAGE B
+
+========================================================================================
+PACKAGE B: 
+1. Time given: 3 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+________________________________________________________________________________________
+
+Normal price: RM 130.0
+With member card price: RM 104.0
+________________________________________________________________________________________
+========================================================================================
+
+PLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE C
+3
+
+PACKAGE C
+
+========================================================================================
+PACKAGE C: 
+1. Time given: 4 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Royal botanical Garden's shirt and cap per person
+________________________________________________________________________________________
+
+Normal price: RM 180.0
+With member card price: RM 144.0
+________________________________________________________________________________________
+========================================================================================
+
+PLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE D
+4
+
+PACKAGE D
+
+========================================================================================
+PACKAGE D: 
+1. Time given: 5 to 7 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Royal Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Royal Botanical Garden
+7. Garden tour guide provided
+________________________________________________________________________________________
+
+Normal price: RM 280.0
+With member card price: RM 224.0
+________________________________________________________________________________________
+========================================================================================
+
+PLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE E
+2
+
+PACKAGE E
+
+========================================================================================
+PACKAGE E: 
+1. Time given: 24 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Royal Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Royal Botanical Garden
+7. Garden tour guide provided
+8. Free access and unlimited time to all fun activities and games :
+   -golf
+   -horse riding
+   -mini zoo
+   -flower garden
+________________________________________________________________________________________
+
+Normal price: RM 480.0
+With member card price: RM 384.0
+________________________________________________________________________________________
+========================================================================================
