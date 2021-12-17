@@ -1,0 +1,144 @@
+//Author : NUR AQIL NAJJAH BINTI RUZAIDI
+//Purpose : To display available ticket package with the price for Royal Botanical Garden's customer 
+
+package assignment;
+import java.util.Scanner;
+public class Garden {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		double price1 = 25.0; //price for children
+		double price2 = 30.0; //price for adult
+		double price3 = 45.0; //price for senior
+		char pa, pb, pc, pd, pe;
+		
+		System.out.println("\n*******************************************" + "\n\n WELCOME TO PERDANA BOTANICAL GARDEN"
+		+ "\n\n\n*******************************************");
+		
+		System.out.println("\nPlease enter your name: ");
+		String name = sc.next();
+		
+		System.out.println("\nPlease enter your age: ");
+		int age = sc.nextInt();
+		
+		System.out.println("\n**TICKET RESERVATION**");
+		
+		System.out.println("\nNumber of children: ");
+		int a = sc.nextInt();
+		
+		System.out.println("\nNumber of adult: ");
+		int b = sc.nextInt();
+		
+		System.out.println("\nNumber of senior: ");
+		int c = sc.nextInt();
+		int no = a + b + c;
+
+		System.out.println("\nAre you a member of Royal Botanical Garden?");
+		boolean member = sc.nextBoolean();
+		
+		System.out.println("\n*******************************************************************************"
+				+ "\n* Attention to all members, please check your validation date for membership. * \n* Membership renewal notices will be sent by email only and payment"
+				+ " is due by * \n* 31 December. Unpaid members as of 1 January will lose membership privileges * \n* until"
+				+ " their dues are paid. Thankyou.                                        *"
+				+ "\n*******************************************************************************");
+		
+		System.out.println("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("NAME            : " + name);
+		System.out.println("AGE             : " + age);
+		System.out.println("NUMBER OF PEOPLE: " + no);
+		System.out.println("MEMBER          : " + member);
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		
+		System.out.println("\n**************************************************************************************" 
+		+ "\nPLEASE CHOOSE THE PACKAGE " + "\n**************************************************************************************");
+		
+		System.out.println("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" + 
+		"\n1. PACKAGE A" + "\n2. PACKAGE B" + "\n3. PACKAGE C" + "\n4. PACKAGE D" + "\n5. PACKAGE E" +
+		"\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		
+		System.out.println("\nPLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE A");
+		pa = sc.next().charAt(0);
+		pa = 'A';
+		System.out.println("\nPACKAGE " + pa);
+				
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE A: " + "\n1. Time given: 2 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access");
+		double pricea = ((a*price1) + (b*price2) + (c*price3));
+		double priceab = (pricea*0.8);
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("\nNormal price: " + "RM " + pricea + "\nWith member card price: " + "RM " + priceab);
+		System.out.println("________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.println("\nPLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE B");
+		pb = sc.next().charAt(0);
+		pb = 'B';
+		System.out.println("\nPACKAGE " + pb);
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE B: " + "\n1. Time given: 3 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks");
+		double priceac = pricea+30;
+		double pricead = priceac*0.8;
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("\nNormal price: " + "RM " + priceac + "\nWith member card price: " + "RM " + pricead);
+		System.out.println("________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.println("\nPLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE C");
+		pc = sc.next().charAt(0);
+		pc = 'C';
+		System.out.println("\nPACKAGE " + pc);
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE C: " + "\n1. Time given: 4 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" + "\n5. Free exclusive Royal "
+		+ "botanical Garden's shirt and cap per person");
+		double priceae = priceac+50;
+		double priceaf = priceae*0.8;
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("\nNormal price: " + "RM " + priceae + "\nWith member card price: " + "RM " + priceaf);
+		System.out.println("________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.println("\nPLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE D");
+		pd = sc.next().charAt(0);
+		pd = 'D';
+		System.out.println("\nPACKAGE " + pd);
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE D: " + "\n1. Time given: 5 to 7 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" +
+		"\n5. Free exclusive Royal Botanical Garden's shirt and cap per person" + 
+		"\n6. Free golden vouchers exclusive from Royal Botanical Garden" + "\n7. Garden tour guide provided");
+		double priceag = priceae+100;
+		double priceah = priceag*0.8;
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("\nNormal price: " + "RM " + priceag + "\nWith member card price: " + "RM " + priceah);
+		System.out.println("________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.println("\nPLEASE ENTER ANY NUMBER OR LETTER IF YOU WANT TO SEE PACKAGE E");
+		pe = sc.next().charAt(0);
+		pe = 'E';
+		System.out.println("\nPACKAGE " + pe);
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE E: " + "\n1. Time given: 24 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" +
+		"\n5. Free exclusive Royal Botanical Garden's shirt and cap per person" + 
+		"\n6. Free golden vouchers exclusive from Royal Botanical Garden" + "\n7. Garden tour guide provided" + 
+		"\n8. Free access and unlimited time to all fun activities and games :" + "\n   -golf" + "\n   -horse riding" + 
+		"\n   -mini zoo" + "\n   -flower garden");
+		double priceai = priceag+200;
+		double priceaj = priceai*0.8;
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("\nNormal price: " + "RM " + priceai + "\nWith member card price: " + "RM " + priceaj);
+		System.out.println("________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		sc.close();
+	}
+}
