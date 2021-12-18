@@ -68,7 +68,7 @@ public class Garden {
 		double pricea = ((a*price1) + (b*price2) + (c*price3));
 		double priceab = (pricea*0.8);
 		System.out.println("\n________________________________________________________________________________________");
-		System.out.println("\nNormal price: " + "RM " + pricea + "\nWith member card price: " + "RM " + priceab);
+		System.out.println("\nNormal price: " + "RM " + pricea + "\nWith member card price(20% off) : " + "RM " + priceab);
 		System.out.println("________________________________________________________________________________________");
 		System.out.println("========================================================================================");
 		
@@ -83,7 +83,7 @@ public class Garden {
 		double priceac = pricea+30;
 		double pricead = priceac*0.8;
 		System.out.println("\n________________________________________________________________________________________");
-		System.out.println("\nNormal price: " + "RM " + priceac + "\nWith member card price: " + "RM " + pricead);
+		System.out.println("\nNormal price: " + "RM " + priceac + "\nWith member card price(20% off) : " + "RM " + pricead);
 		System.out.println("________________________________________________________________________________________");
 		System.out.println("========================================================================================");
 		
@@ -94,12 +94,12 @@ public class Garden {
 		
 		System.out.print("\n========================================================================================");
 		System.out.print("\nPACKAGE C: " + "\n1. Time given: 4 hours" + "\n2. Free parking ticket" + 
-		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" + "\n5. Free exclusive Royal "
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" + "\n5. Free exclusive Perdana "
 		+ "botanical Garden's shirt and cap per person");
 		double priceae = priceac+50;
 		double priceaf = priceae*0.8;
 		System.out.println("\n________________________________________________________________________________________");
-		System.out.println("\nNormal price: " + "RM " + priceae + "\nWith member card price: " + "RM " + priceaf);
+		System.out.println("\nNormal price: " + "RM " + priceae + "\nWith member card price(20% off) : " + "RM " + priceaf);
 		System.out.println("________________________________________________________________________________________");
 		System.out.println("========================================================================================");
 		
@@ -111,12 +111,12 @@ public class Garden {
 		System.out.print("\n========================================================================================");
 		System.out.print("\nPACKAGE D: " + "\n1. Time given: 5 to 7 hours" + "\n2. Free parking ticket" + 
 		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" +
-		"\n5. Free exclusive Royal Botanical Garden's shirt and cap per person" + 
-		"\n6. Free golden vouchers exclusive from Royal Botanical Garden" + "\n7. Garden tour guide provided");
+		"\n5. Free exclusive Perdana Botanical Garden's shirt and cap per person" + 
+		"\n6. Free golden vouchers exclusive from Perdana Botanical Garden" + "\n7. Garden tour guide provided");
 		double priceag = priceae+100;
 		double priceah = priceag*0.8;
 		System.out.println("\n________________________________________________________________________________________");
-		System.out.println("\nNormal price: " + "RM " + priceag + "\nWith member card price: " + "RM " + priceah);
+		System.out.println("\nNormal price: " + "RM " + priceag + "\nWith member card price(20% off) : " + "RM " + priceah);
 		System.out.println("________________________________________________________________________________________");
 		System.out.println("========================================================================================");
 		
@@ -128,14 +128,14 @@ public class Garden {
 		System.out.print("\n========================================================================================");
 		System.out.print("\nPACKAGE E: " + "\n1. Time given: 24 hours" + "\n2. Free parking ticket" + 
 		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" +
-		"\n5. Free exclusive Royal Botanical Garden's shirt and cap per person" + 
-		"\n6. Free golden vouchers exclusive from Royal Botanical Garden" + "\n7. Garden tour guide provided" + 
+		"\n5. Free exclusive Perdana Botanical Garden's shirt and cap per person" + 
+		"\n6. Free golden vouchers exclusive from Perdana Botanical Garden" + "\n7. Garden tour guide provided" + 
 		"\n8. Free access and unlimited time to all fun activities and games :" + "\n   -golf" + "\n   -horse riding" + 
 		"\n   -mini zoo" + "\n   -flower garden");
 		double priceai = priceag+200;
 		double priceaj = priceai*0.8;
 		System.out.println("\n________________________________________________________________________________________");
-		System.out.println("\nNormal price: " + "RM " + priceai + "\nWith member card price: " + "RM " + priceaj);
+		System.out.println("\nNormal price: " + "RM " + priceai + "\nWith member card price(20% off) : " + "RM " + priceaj);
 		System.out.println("________________________________________________________________________________________");
 		System.out.println("========================================================================================");
 		
