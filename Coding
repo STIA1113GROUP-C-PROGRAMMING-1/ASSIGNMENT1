@@ -34,7 +34,7 @@ public class Garden {
 		int c = sc.nextInt();
 		int no = a + b + c;
 
-		System.out.println("\nAre you a member of Royal Botanical Garden?");
+		System.out.println("\nAre you a member of Perdana Botanical Garden?");
 		boolean member = sc.nextBoolean();
 		
 		System.out.println("\n*******************************************************************************"
